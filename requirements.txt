@@ -19,8 +19,9 @@ torchmetrics==0.6.0
 fire==0.4.0
 gradio==3.1.4
 diffusers==0.3.0
-huggingface-hub=0.11.0
+huggingface-hub==0.11.0
 datasets[vision]==2.4.0
+ipywidgets==8.0.2
 -e git+https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers
 -e git+https://github.com/openai/CLIP.git@main#egg=clip
 -e git+https://github.com/justinpinkney/nomi.git@e9ded23b7e2269cc64d39683e1bf3c0319f552ab#egg=nomi
