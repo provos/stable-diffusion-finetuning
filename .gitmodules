@@ -1,0 +1,3 @@
+[submodule "pokemon-blip-captions"]
+	path = pokemon-blip-captions
+	url = https://huggingface.co/datasets/lambdalabs/pokemon-blip-captions
