@@ -79,7 +79,7 @@ data:
       target: ldm.data.simple.hf_dataset
       params:
         name: imagefolder
-        data_dir: ../data/labeled/
+        data_dir: ./twitterdownloader/data/labeled/
         #caption_file: ../labeled/metadata.jsonl
         #ext: "png"
         image_transforms:
