@@ -122,6 +122,7 @@ class FolderData(Dataset):
 
 def hf_dataset(
     name,
+    data_dir=None,
     image_transforms=[],
     image_column="image",
     text_column="text",
@@ -131,7 +132,7 @@ def hf_dataset(
     ):
     """Make huggingface dataset with appropriate list of transforms applied
     """
-    ds = load_dataset(name, split=split)
+    ds = load_dataset(name, data_dir=data_dir, split=split)
     image_transforms = [instantiate_from_config(tt) for tt in image_transforms]
     image_transforms.extend([transforms.ToTensor(),
                                 transforms.Lambda(lambda x: rearrange(x * 2. - 1., 'c h w -> h w c'))])
