@@ -95,9 +95,9 @@ data:
       target: ldm.data.simple.TextOnly
       params:
         captions:
-        - "A woman with a tattoo on her chest and a gun in her hand"
+        - "A woman with a gun in her hand"
         - "A motorbike on an empty street"
-        - "A mean looking thug"
+        - "A man walking through a city"
         - "An epic landscape photo of a mountain"
         output_size: 512
         n_gpus: 2 # small hack to make sure we see all our samples
