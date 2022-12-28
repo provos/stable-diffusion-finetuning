@@ -1,5 +1,5 @@
 model:
-  base_learning_rate: 1.0e-04
+  base_learning_rate: 5.0e-05
   target: ldm.models.diffusion.ddpm.LatentDiffusion
   params:
     linear_start: 0.00085
@@ -95,9 +95,9 @@ data:
       target: ldm.data.simple.TextOnly
       params:
         captions:
-        - "A woman with a tattoo on her chest and a gun in her hand"
-        - "A motorbike on an empty street"
-        - "A mean looking thug"
+        - "A woman in a chair and a gun in her hand"
+        - "A motorbike on an empty city street"
+        - "A tough looking man standing in a room"
         - "An epic landscape photo of a mountain"
         output_size: 512
         n_gpus: 2 # small hack to make sure we see all our samples
