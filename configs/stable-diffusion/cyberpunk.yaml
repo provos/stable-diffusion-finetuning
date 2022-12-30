@@ -95,10 +95,10 @@ data:
       target: ldm.data.simple.TextOnly
       params:
         captions:
-        - "A woman in a chair and a gun in her hand"
-        - "A motorbike on an empty city street"
-        - "A tough looking man standing in a room"
-        - "An epic landscape photo of a mountain"
+        - "A woman in a chair and a gun in her hand; in cp2077 style"
+        - "A motorbike on an empty city street; in cp2077 style"
+        - "A tough looking man standing in a room; in cp2077 style"
+        - "An epic landscape photo of a mountain; in cp2077 style"
         output_size: 512
         n_gpus: 2 # small hack to make sure we see all our samples
 
